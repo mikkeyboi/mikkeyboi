@@ -5,7 +5,7 @@
 
 ### Hi, I'm Michael 👋
 
-I'm Michael Min Wah Leung, ML Engineering Senior Lead at Microsoft Digital, with a graduate research background in neuroscience. Most interested in **making models smarter** rather than building tooling around them: RL on LLMs, mechanistic interpretability, and sequence models for things that aren't text.
+I'm Michael Min Wah Leung, ML Engineer at Microsoft Digital, with a graduate research background in neuroscience. Most interested in **making models smarter** rather than building tooling around them: RL on LLMs, mechanistic interpretability, and sequence models for things that aren't text.
 
 📝 Long-form notes: **[mikkeyboi.github.io](https://mikkeyboi.github.io)**
 
@@ -19,15 +19,15 @@ I'm Michael Min Wah Leung, ML Engineering Senior Lead at Microsoft Digital, with
 
 #### Background
 
-- 💼 **ML Engineering Senior Lead, Microsoft Digital.** Real-time fault-detection AI platform for HVAC, post-trained expert SLMs, mentoring engineers on LLM integration and deployment.
-- 🛡 **Responsible AI Champ, Microsoft Digital.** Adversarial benchmarking and red-teaming for LLMs, internal white papers on Content Safety and RAI methodology, and a SaaS that automated impact-assessment evaluation (90% time saved).
+- 💼 **Senior Software Engineer, Microsoft Digital.** Real-time fault-detection AI platform for HVAC, post-trained expert SLMs, mentoring engineers on LLM integration and deployment.
+- 🛡 **Responsible AI Champ, Microsoft Digital.** Adversarial benchmarking and red-teaming for LLMs, internal white papers on Content Safety and RAI methodology, and a SaaS that wrapped impact assessment in automation, CICD, and stress-testing so product teams could ship AI features and iterate on them without compromising safety review.
 - 🩺 **Graduate Research Fellow, Ottawa Hospital Research Institute and University of Ottawa Neuroscience.** Real-time decoding of neural activity for Parkinson's research; UnityVR eye-tracking psychophysics platform for intraoperative use; published work in BCI / EEG decoding and chemistry-education clustering.
 
 #### Other work, briefly
 
-The blog posts are the modelling-heavy slice. The rest of my work spans:
+The blog posts are the modelling-heavy slice. A throughline across the rest of my work is optimization at scale, in platform design, cloud infrastructure, and parallelization, because the cost and reliability of an enterprise solution usually gets decided long before the model does.
 
-- **Platform / Big Data engineering** — serverless CICD on Big Data warehousing (>$100K/yr savings), custom Azure ML SDKs for SQL / Parquet / Delta / Cosmos modalities (contributed back to public Azure docs), real-time HVAC telemetry pipelines into Azure Synapse and ADX.
+- **Platform / Big Data engineering** — serverless CICD and parallelized warehousing patterns that took meaningful recurring spend off the table; custom Azure ML SDKs for SQL / Parquet / Delta / Cosmos modalities (contributed back to public Azure docs); real-time HVAC telemetry pipelines into Azure Synapse and ADX.
 - **Production AI tooling** — vectorizer stack on fine-tuned GPT-4 reducing hallucinations by 99% on M365 product feedback; recommendation + sentiment NLP across hyperscale GPU; multivariate IoT imputer at 0.9 F1 powering thousands of workflows daily.
 - **Full-stack** — microservice SaaS on Next.js + Prisma deployable on Azure, including the Responsible AI app and a merchandise warehousing system.
 - **Earlier hardware-adjacent work** — Unity3D VR eye-tracking and BCI platforms for neurosurgical use; honourable mention in a Microsoft hackathon for shipping hand-gesture functionality in M365 (the direct precursor to the sign-language project above).
