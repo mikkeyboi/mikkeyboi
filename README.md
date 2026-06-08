@@ -11,6 +11,8 @@ I'm Michael Min Wah Leung, ML Engineer at Microsoft Digital, with a graduate res
 
 #### Selected writing
 
+- 🔍 **[A probe at layer 0 is a lie detector for your experiment](https://mikkeyboi.github.io/posts/04-h001-depth-profile/).** Two linear probes on Gemma 3 1B both reached 1.000 held-out accuracy yet meant opposite things. The finding is the accuracy-by-layer curve, not the number: vocab-disjoint splits and shuffled-label selectivity controls separate a concept the embedding already encodes (flat at ceiling from layer 0) from one the model has to build across an allocation zone (negation-composed sentiment climbing from chance to linearly separable by layer 8).
+
 - 🔬 **[Why SFT learned the words but GRPO learned the rules](https://mikkeyboi.github.io/posts/01-sft-grpo-hvac/).** SFT, GRPO, and DPO for an internal expert model on a proprietary equipment-naming taxonomy. Custom multi-component reward function, conservative LoRA-GRPO (r=4, β=0.2, 0.25 epochs), and measurable failure-mode shifts (95% reduction in false positives versus baseline).
 
 - 🤟 **[From consuming a pretrained model to training my own](https://mikkeyboi.github.io/posts/03-cslt-seq2seq/).** A Transformer Seq2Seq trained from scratch (Keras and Apple MLX) over MediaPipe Holistic landmarks for continuous sign-language decoding, with a hybrid runtime that defers to an isolated-gloss model for short bursts. First place out of 11,000+ submissions in an organisation-wide hackathon.
